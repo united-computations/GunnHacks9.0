@@ -3,6 +3,7 @@ import Heading from '../components/Heading';
 import About from '../components/About';
 import FAQ from '../components/FAQ';
 import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             <About />
             <FAQ />
             <Sponsors />
+            <Footer />
         </div>
     )
 }
