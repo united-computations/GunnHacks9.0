@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/About';
+import FAQ from '../components/FAQ';
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
             </Head>
 
             <About />
+            <FAQ />
         </div>
     )
 }
