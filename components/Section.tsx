@@ -7,7 +7,7 @@ export default function Section(props: SectionProps) {
 
     return (
         <section id={id} className={"font-['Abel'] text-center " + (red ? 'text-white bg-theme' : 'bg-white')}>
-            <div className="container py-5">
+            <div className="container py-8">
                 {title && (
                     <h2 className="text-center text-3xl font-bold border-b-2 border-current mb-4">
                         {title}
