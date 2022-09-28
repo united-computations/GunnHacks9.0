@@ -9,7 +9,7 @@ export default function Question(props: {q: string, children: ReactNode}) {
     return (
         <div className="m-2">
             <div className="flex gap-4 cursor-pointer text-xl mb-3" onClick={() => setOpen(!open)}>
-                <h3>{open ? '-' : '+'}</h3>
+                <h3>{open ? '–' : '+'}</h3>
                 <h3>{q}</h3>
             </div>
             {open && (

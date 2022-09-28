@@ -4,7 +4,7 @@ import Document, {Html, Head, Main, NextScript} from 'next/document';
 class GunnHacksDocument extends Document {
     render() {
         return (
-            <Html className="dark">
+            <Html>
                 <Head>
                     <meta charSet="utf-8" />
                     <link rel="icon" type="image/png" href="/favicon.png" />
