@@ -11,7 +11,7 @@ export default function Footer() {
                 <h3 className="font-bold">Previous Years:</h3>
                 <div className="flex flex-wrap gap-6">
                     {previousYears.map(year => (
-                        <a target="_blank" rel="noopener noreferrer" href={`https://${year}.gunnhacks.com`}>
+                        <a target="_blank" rel="noopener noreferrer" href={`https://${year}.gunnhacks.com`} key={year}>
                             {year}
                         </a>
                     ))}
