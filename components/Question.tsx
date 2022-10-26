@@ -3,7 +3,7 @@ import {ReactNode, useState} from 'react';
 
 export default function Question(props: {q: string, children: ReactNode}) {
     const {q, children} = props;
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
 
     // TODO: use `@headlessui/react` `Disclosure`
     return (
