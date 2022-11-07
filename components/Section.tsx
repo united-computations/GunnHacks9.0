@@ -6,10 +6,10 @@ export default function Section(props: SectionProps) {
     const {title, red, id, children} = props;
 
     return (
-        <section id={id} className={"font-['Abel'] text-center " + (red ? 'text-white bg-theme' : 'bg-white')}>
+        <section className={"font-['Abel'] text-center " + (red ? 'text-white bg-theme' : 'bg-white')}>
             <div className="container py-8">
                 {title && (
-                    <h2 className="text-center text-3xl font-bold border-b-2 border-current mb-4">
+                    <h2 id={id} className="before:-mt-16 before:h-16 before:pointer-events-none before:content-'_' before:block text-center text-3xl font-bold border-b-2 border-current mb-4">
                         {title}
                     </h2>
                 )}
