@@ -6,7 +6,7 @@ export default function About() {
         <Section title="About" id="about">
             <p className="mb-4">The ninth iteration of GunnHacks, Gunn High School's annual hackathon.</p>
             <p>
-                Join us at the library January 21st to 22nd from 2 PM to 2 PM for an in-person, 24 hour high school hackathon.
+                Join us at the library January 21st to 22nd from 3 PM to 3 PM for an in-person, 24 hour high school hackathon.
                 Work in teams of up to four to create something amazing. We welcome any precollege student with an interest
                 in technology!
             </p>
