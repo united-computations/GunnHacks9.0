@@ -39,11 +39,11 @@ function ScheduleDay(props: {name: string, children: ReactNode}) {
     return (
         <div className="w-96 flex-grow">
             <h3 className="text-2xl font-bold mb-3">{props.name}</h3>
-            <table className="w-full text-left">
+            <table className="table-fixed w-full text-left">
                 <thead>
                     <tr>
-                        <th className="p-2">Start</th>
-                        <th className="p-2 hidden sm:block">End</th>
+                        <th className="p-2 w-28">Start</th>
+                        <th className="p-2 w-28 hidden sm:table-cell">End</th>
                         <th className="p-2">Event</th>
                     </tr>
                 </thead>
@@ -59,7 +59,7 @@ function ScheduleItem(props: {start: string, end?: string, bold?: boolean, child
     return (
         <tr className={'border-t' + (props.bold ? ' font-bold' : '')}>
             <td className="p-2">{props.start}</td>
-            <td className="p-2 hidden sm:block">{props.end}</td>
+            <td className="p-2 hidden sm:table-cell">{props.end}</td>
             <td className="p-2">{props.children}</td>
         </tr>
     )
