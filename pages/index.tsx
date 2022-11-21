@@ -5,6 +5,7 @@ import About from '../components/About';
 import FAQ from '../components/FAQ';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import Schedule from '../components/Schedule';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <Header />
             <Heading />
             <About />
+            <Schedule />
             <FAQ />
             <Sponsors />
             <Footer />
