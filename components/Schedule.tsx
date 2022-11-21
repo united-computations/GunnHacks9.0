@@ -23,7 +23,7 @@ export default function Schedule() {
                     <ScheduleItem start="8:00 AM" end="9:00 AM">Breakfast</ScheduleItem>
                     <ScheduleItem start="9:00 AM" end="10:00 AM">[Event]</ScheduleItem>
                     <ScheduleItem start="12:00 PM" end="1:00 PM">Lunch</ScheduleItem>
-                    <ScheduleItem start="3:00 PM" bold>Hacking closes</ScheduleItem>
+                    <ScheduleItem start="3:00 PM" bold>Hacking ends</ScheduleItem>
                     <ScheduleItem start="3:00 PM" end="5:00 PM">Presentations & demos (judging)</ScheduleItem>
                     <ScheduleItem start="3:00 PM" end="5:00 PM">[Programming workshops & events]</ScheduleItem>
                     <ScheduleItem start="5:00 PM" end="5:30 PM">Awards & closing ceremony</ScheduleItem>
