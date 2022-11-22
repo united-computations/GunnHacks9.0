@@ -4,12 +4,11 @@ import Document, {Html, Head, Main, NextScript} from 'next/document';
 class GunnHacksDocument extends Document {
     render() {
         return (
-            <Html className="scroll-smooth">
+            <Html className="scroll-smooth font-['Abel']">
                 <Head>
                     <meta charSet="utf-8" />
                     <link rel="icon" type="image/png" href="/favicon.png" />
 
-                    <link href="https://fonts.googleapis.com/css?family=Overpass:100,400" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
                 </Head>
