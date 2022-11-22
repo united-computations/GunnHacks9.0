@@ -10,6 +10,8 @@ export default function Header() {
                 <img className="w-8 h-8" src="/lambda.png" alt="lambda" />
             </a>
             <a href="#about" className="no-underline">About</a>
+            <a href="#schedule" className="no-underline">Schedule</a>
+            <a href="#prizes" className="no-underline">Prizes</a>
             <a href="#faq" className="no-underline">FAQ</a>
             <a href="#sponsors" className="no-underline">Sponsors</a>
         </header>

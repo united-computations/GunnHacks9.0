@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Heading from '../components/Heading';
 import About from '../components/About';
+import Schedule from '../components/Schedule';
+import Prizes from '../components/Prizes';
 import FAQ from '../components/FAQ';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
@@ -18,6 +20,8 @@ export default function Home() {
             <Header />
             <Heading />
             <About />
+            <Schedule />
+            <Prizes />
             <FAQ />
             <Sponsors />
             <Footer />
