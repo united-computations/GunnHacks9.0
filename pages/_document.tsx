@@ -7,7 +7,7 @@ class GunnHacksDocument extends Document {
             <Html className="scroll-smooth font-['Abel']">
                 <Head>
                     <meta charSet="utf-8" />
-                    <link rel="icon" type="image/png" href="/favicon.png" />
+                    <link rel="icon" type="image/png" href="/pixel-lambda.png" />
 
                     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
