@@ -5,7 +5,7 @@ export default function Header() {
     const scroll = useScroll();
 
     return (
-        <header className={'fixed text-white z-20 bg-black/40 top-0 inset-x-0 hidden sm:flex gap-6 items-center px-4 py-2 transition duration-200 backdrop-blur-sm ' + (scroll > 0 ? 'shadow-md' : 'hover:shadow-md')}>
+        <header className={'fixed text-white z-20 top-0 inset-x-0 hidden sm:flex gap-6 items-center px-4 py-2 transition duration-300 backdrop-blur-sm ' + (scroll > 0 ? 'bg-black/40 shadow-md' : 'hover:bg-black/40 hover:shadow-md')}>
             <a href="#">
                 <img className="w-8 h-8" src="/lambda.png" alt="lambda" />
             </a>
