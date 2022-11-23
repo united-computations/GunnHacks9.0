@@ -21,13 +21,13 @@ export default function Heading() {
             <strong className="text-xl mb-4">January 21-22, 2023</strong>
 
             <div className="flex gap-4 text-2xl">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks" aria-label="Facebook">
                     <RiFacebookFill />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/" aria-label="Instagram">
                     <RiInstagramFill />
                 </a>
-                <a href="mailto:ghshacks@gmail.com">
+                <a href="mailto:ghshacks@gmail.com" aria-label="Email">
                     <FaEnvelope />
                 </a>
             </div>
