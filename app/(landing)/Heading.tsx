@@ -1,11 +1,16 @@
+import {Overpass} from '@next/font/google';
 import {RiFacebookFill, RiInstagramFill} from 'react-icons/ri';
 import {FaEnvelope} from 'react-icons/fa';
 
 
+const overpass = Overpass({
+    subsets: ['latin']
+});
+
 export default function Heading() {
     return (
         <section id="heading" className="text-white text-center h-screen relative flex flex-col items-center justify-center p-5 bg-[url('/bg.svg')] bg-cover bg-center bg-fixed">
-            <div className="flex flex-wrap justify-center gap-3 text-5xl sm:text-8xl font-['Overpass'] tracking-wider mb-2">
+            <div className={'flex flex-wrap justify-center gap-3 text-5xl sm:text-8xl tracking-wider mb-2 ' + overpass.className}>
                 <img className="w-12 h-12 sm:w-24 sm:h-24" src="/lambda.png" alt="lambda" />
                 <span className="pt-2">GunnHacks 9.0</span>
             </div>
@@ -16,13 +21,13 @@ export default function Heading() {
             <strong className="text-xl mb-4">January 21-22, 2023</strong>
 
             <div className="flex gap-4 text-2xl">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunnHacks" aria-label="Facebook">
                     <RiFacebookFill />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/" aria-label="Instagram">
                     <RiInstagramFill />
                 </a>
-                <a href="mailto:ghshacks@gmail.com">
+                <a href="mailto:ghshacks@gmail.com" aria-label="Email">
                     <FaEnvelope />
                 </a>
             </div>
