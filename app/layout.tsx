@@ -8,6 +8,7 @@ export default function Layout(props: {children: ReactNode}) {
         <html className="scroll-smooth">
             <head>
                 <meta charSet="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" type="image/png" href="/favicon.png" />
 
                 <link href="https://fonts.googleapis.com/css?family=Overpass:100,400" rel="stylesheet" />
