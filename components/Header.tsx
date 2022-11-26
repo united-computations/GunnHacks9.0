@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {useScroll} from '../util/useScroll';
 
 
@@ -17,6 +18,7 @@ export default function Header() {
                 <a href="#prizes" className="no-underline">Prizes</a>
                 <a href="#faq" className="no-underline">FAQ</a>
                 <a href="#sponsors" className="no-underline">Sponsors</a>
+                <Link href="/register" className="no-underline">Register</Link>
             </nav>
         </header>
     )
