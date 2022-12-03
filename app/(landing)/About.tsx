@@ -7,7 +7,7 @@ export default function About() {
             <p className="mb-4">The ninth iteration of GunnHacks, Gunn High School's annual hackathon.</p>
             <p>
                 Join us at the library January 21st to 22nd for an in-person, 24 hour high school hackathon.
-                Work in teams of up to four to create something amazing. We welcome any precollege student with an interest
+                Work in teams of up to four to create something amazing. We welcome any PAUSD student with an interest
                 in technology!
             </p>
             {/*

@@ -12,9 +12,8 @@ export default function FAQ() {
                     Dive in and make the most incredible thing you can alongside fellow creators.
                 </Question>
                 <Question q="Who can attend?">
-                    Any high schoolers (or below!) can attend GunnHacks. Unfortunately, we cannot allow college students
-                    to attend this time around, and we cannot ship swag/prizes internationally.
-                    International participants are not eligible for prizes or swag.
+                    Any PAUSD student can attend GunnHacks. Unfortunately, we cannot allow college or out-of-district
+                    students to attend this time around.
                 </Question>
                 <Question q="What if I don’t know how to code?">
                     All students regardless of coding ability or experience are welcome. Hackathons are a great place to
@@ -44,13 +43,13 @@ export default function FAQ() {
                     No, not at all! We will have fun activities and workshops you can participate in when
                     you want to take a break.
                 </Question>
-                {/*
                 <Question q="Where is GunnHacks?">
-                    Due to the pandemic, GunnHacks 8.0 will be held online for all participants.
+                    GunnHacks 9.0 will be held in-person at the Gunn library.
                 </Question>
                 <Question q="When does registration close?">
-                    Registration will close on February 4th, 2022 at 11:59pm PST, when the hackathon begins.
+                    Registration will close on January 6th, 2023 at 11:59pm PST.
                 </Question>
+                {/*
                 <Question q="What do I need to submit?">
                     You need to submit a DevPost project to https://gunnhacks8.devpost.com that includes a
                     1-3 minute demo video and a public link to your code (GitHub/GitLab/Replit).
