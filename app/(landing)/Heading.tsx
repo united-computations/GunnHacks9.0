@@ -1,5 +1,5 @@
 import {Overpass} from '@next/font/google';
-import {RiFacebookFill, RiInstagramFill} from 'react-icons/ri';
+import {RiFacebookFill, RiInstagramFill, RiDiscordFill} from 'react-icons/ri';
 import {FaEnvelope} from 'react-icons/fa';
 
 
@@ -26,6 +26,9 @@ export default function Heading() {
                 </a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunn.hacks/" aria-label="Instagram">
                     <RiInstagramFill />
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/pyJmTpRWZJ" aria-label="Instagram">
+                    <RiDiscordFill />
                 </a>
                 <a href="mailto:ghshacks@gmail.com" aria-label="Email">
                     <FaEnvelope />
