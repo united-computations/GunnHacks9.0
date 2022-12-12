@@ -6,8 +6,8 @@ export default function About() {
         <Section title="About" id="about">
             <p className="mb-4">The ninth iteration of GunnHacks, Gunn High School's annual hackathon.</p>
             <p>
-                If you've been wanting the chance to learn how to program or further develop your programming skills, GunnHacks, Gunn's annual 24-hour hackathon, is perfect for you! Join for free food and swag, engaging workshops, and the chance to earn epic prizes!
-                GunnHacks 9.0 will take place January 21-22, 2023 from 2pm-6pm overnight in the Gunn library. Teams of up to 4 are invited to create a software or hardware project for prizes! Gunn or Paly students of all skill levels are welcome!
+                If you've been wanting the chance to learn how to program or further develop your programming skills, GunnHacks, Gunn's annual 24-hour hackathon, is perfect for you! Join for free food and swag, engaging workshops, and the chance to earn epic prizes.
+                GunnHacks 9.0 will take place January 21-22, 2023 from 2pm-6pm overnight in the Gunn library. Teams of up to 4 are invited to create a software or hardware project for prizes. Gunn or Paly students of all skill levels are welcome!
             </p>
             {/* <p>
                 Join us at the library January 21st to 22nd for an in-person, 24 hour high school hackathon.
