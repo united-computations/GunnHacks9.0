@@ -10,25 +10,28 @@ export default function Schedule() {
                     <ScheduleItem start="1:30 PM">Doors open</ScheduleItem>
                     <ScheduleItem start="2:00 PM" end="2:30 PM">Opening ceremony</ScheduleItem>
                     <ScheduleItem start="2:30 PM" end="3:00 PM">Team formation</ScheduleItem>
-                    <ScheduleItem start="3:00 PM" bold>Commence hacking!</ScheduleItem>
-                    <ScheduleItem start="3:30 PM" end="5:00 PM">[Programming workshop]</ScheduleItem>
-                    <ScheduleItem start="5:00 PM" end="6:30 PM">[Programming workshop]</ScheduleItem>
-                    <ScheduleItem start="6:30 PM" end="7:30 PM">Dinner</ScheduleItem>
-                    <ScheduleItem start="7:00 PM" end="8:30 PM">[Programming workshop]</ScheduleItem>
-                    <ScheduleItem start="8:30 PM" end="10:00 PM">[Programming workshop]</ScheduleItem>
-                    <ScheduleItem start="10:00 PM" end="11:30 PM">[Programming workshop]</ScheduleItem>
-                    <ScheduleItem start="11:30 PM" end="1:30 AM">Snacks & movie night</ScheduleItem>
+                    <ScheduleItem start="3:00 PM" bold>Commence Hacking!</ScheduleItem>
+                    <ScheduleItem start="3:15 PM" end="4:45 PM">Introduction to Web Development (Unity)</ScheduleItem>
+                    <ScheduleItem start="5:00 PM" end="6:30 PM">Python Review & Webscraping</ScheduleItem>
+                    <ScheduleItem start="6:30 PM">Dinner</ScheduleItem>
+                    <ScheduleItem start="7:00 PM" end="7:30 PM">Coding Trivia Kahoot</ScheduleItem>
+                    <ScheduleItem start="7:30 PM" end="8:45 PM">Discord Bots (Python + JS)</ScheduleItem>
+                    <ScheduleItem start="8:45 PM" end="10:00 PM">Basic AI/ML</ScheduleItem>
+                    <ScheduleItem start="10:00 PM" end="10:30 AM">Cow Drawing Competition</ScheduleItem>
+                    <ScheduleItem start="11:00 PM" end="11:30 AM">Chess Tournament</ScheduleItem>
                 </ScheduleDay>
                 <ScheduleDay name="January 22">
-                    <ScheduleItem start="8:00 AM" end="9:00 AM">Breakfast</ScheduleItem>
-                    <ScheduleItem start="9:00 AM" end="10:00 AM">[Event]</ScheduleItem>
-                    <ScheduleItem start="12:00 PM" end="1:00 PM">Lunch</ScheduleItem>
-                    <ScheduleItem start="3:00 PM" bold>Hacking ends</ScheduleItem>
-                    <ScheduleItem start="3:00 PM" end="5:00 PM">Presentations & demos (judging)</ScheduleItem>
-                    <ScheduleItem start="3:00 PM" end="5:00 PM">[Programming workshops & events]</ScheduleItem>
-                    <ScheduleItem start="5:00 PM" end="5:30 PM">Awards & closing ceremony</ScheduleItem>
-                    <ScheduleItem start="5:30 PM" end="6:00 PM">Awards distribution</ScheduleItem>
-                    <ScheduleItem start="6:00 PM" end="6:30 PM">Cleanup & doors close</ScheduleItem>
+                    <ScheduleItem start="12:00 AM" end="2:00 AM">Movie Night & Snacks</ScheduleItem>
+                    <ScheduleItem start="8:00 AM">Breakfast</ScheduleItem>
+                    <ScheduleItem start="9:00 AM" end="9:15 AM">Cup Stacking</ScheduleItem>
+                    <ScheduleItem start="12:00 PM">Lunch</ScheduleItem>
+                    <ScheduleItem start="3:00 PM" bold>Hacking Ends</ScheduleItem>
+                    <ScheduleItem start="3:00 PM" end="5:00 PM">Presentations & Demos (Judging)</ScheduleItem>
+                    <ScheduleItem start="3:00 PM" end="4:30 PM">Code Golf</ScheduleItem>
+                    <ScheduleItem start="3:15 PM" end="4:30 PM">Scientific Computing</ScheduleItem>
+                    <ScheduleItem start="5:00 PM" end="5:30 PM">Awards & Closing Ceremony</ScheduleItem>
+                    <ScheduleItem start="5:30 PM" end="6:00 PM">Awards Distribution</ScheduleItem>
+                    <ScheduleItem start="6:00 PM" end="6:30 PM">Cleanup & Doors Close</ScheduleItem>
                 </ScheduleDay>
             </div>
         </Section>
