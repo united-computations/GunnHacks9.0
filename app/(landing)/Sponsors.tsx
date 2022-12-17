@@ -17,6 +17,7 @@ export default function Sponsors() {
                 <Sponsor href="https://www.janestreet.com/" src="/sponsors/jane-street.png" alt="Jane Street" />
                 <Sponsor href="https://linktr.ee/leadinglearners" src="/sponsors/leading-learners.png" alt="Leading Learners" />
                 <Sponsor href="https://www.leangap.org/" src="/sponsors/leangap.svg" alt="Leangap" />
+                <Sponsor href="https://www.mitchellparkteenservices.org/thinkfund" src="/sponsors/think-fund.png" alt="Think Fund" />
             </div>
         </Section>
     )
