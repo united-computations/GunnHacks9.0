@@ -12,7 +12,7 @@ export default function Schedule() {
                     <ScheduleItem start="2:30 PM" end="3:00 PM">Team formation</ScheduleItem>
                     <ScheduleItem start="3:00 PM" bold>Commence Hacking!</ScheduleItem>
                     <ScheduleItem start="3:15 PM" end="4:45 PM">Introduction to Web Development</ScheduleItem>
-                    <ScheduleItem start="3:15 PM" end="4:45 PM">Unity</ScheduleItem>
+                    <ScheduleItem start="3:15 PM" end="4:45 PM">Introduction to Unity</ScheduleItem>
                     <ScheduleItem start="5:00 PM" end="6:30 PM">Python Review & Webscraping</ScheduleItem>
                     <ScheduleItem start="6:30 PM">Dinner</ScheduleItem>
                     <ScheduleItem start="7:00 PM" end="7:30 PM">Coding Trivia Kahoot</ScheduleItem>
