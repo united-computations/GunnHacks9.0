@@ -17,7 +17,6 @@ export default function Schedule() {
                     <ScheduleItem start="6:30 PM">Dinner</ScheduleItem>
                     <ScheduleItem start="7:00 PM" end="7:30 PM">Coding Trivia Kahoot</ScheduleItem>
                     <ScheduleItem start="7:30 PM" end="8:45 PM">Discord Bots (Python + JS)</ScheduleItem>
-                    <ScheduleItem start="8:45 PM" end="10:00 PM">Basic AI/ML</ScheduleItem>
                     <ScheduleItem start="10:00 PM" end="10:30 PM">Cow Drawing Competition</ScheduleItem>
                     <ScheduleItem start="11:00 PM" end="11:30 PM">Chess Tournament</ScheduleItem>
                 </ScheduleDay>
