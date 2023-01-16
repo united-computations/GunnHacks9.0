@@ -16,19 +16,19 @@ export default function Judges() {
                     HERE Tech, VP of Product/GM Platform & Marketplace
                 </Judge>
                 <Judge name="Ratnakar Malla" src="/judges/ratnakar-malla.jpg">
-                    Senior Director, Oracle Health & AI
+                    Sr. Director, Oracle Health & AI
                 </Judge>
-                <Judge name="Mohan Gummalam">
-                    Hermis, Inc., Co-founder and CEO
+                <Judge name="Mohan Gummalam" src="/judges/mohan-gummalam.png">
+                    CEO, Hermis, Inc.
                 </Judge>
                 <Judge name="Arpana Tiwari" src="/judges/arpana-tiwari.jpg">
-                    Adobe, SEO. Walmart, Ex-head of SEO
+                    Director at Adobe
                 </Judge>
                 <Judge name="Anurag Singhal" src="/judges/anurag-singhal.png">
                     Founder & CEO, Quattr Inc.
                 </Judge>
-                <Judge name="Timothy Herchen" src="/judges/timothy-herchen.jpg">
-                    Foothill College, Sophomore
+                <Judge name="Timothy Herchen" src="/judges/timothy-herchen.png">
+                    Gunn graduate. Likes cows.
                 </Judge>
             </div>
         </Section>
