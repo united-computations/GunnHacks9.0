@@ -18,16 +18,16 @@ export default function Judges() {
                 <Judge name="Ratnakar Malla" src="/judges/ratnakar-malla.jpg">
                     Sr. Director, Oracle Health & AI
                 </Judge>
-                <Judge name="Mohan Gummalam" src="/judges/mohan-gummalam.png">
+                <Judge name="Mohan Gummalam" src="/judges/mohan-gummalam.jpg">
                     CEO, Hermis, Inc.
                 </Judge>
                 <Judge name="Arpana Tiwari" src="/judges/arpana-tiwari.jpg">
                     Director at Adobe
                 </Judge>
-                <Judge name="Anurag Singhal" src="/judges/anurag-singhal.png">
+                <Judge name="Anurag Singhal" src="/judges/anurag-singhal.jpg">
                     Founder & CEO, Quattr Inc.
                 </Judge>
-                <Judge name="Timothy Herchen" src="/judges/timothy-herchen.png">
+                <Judge name="Timothy Herchen" src="/judges/timothy-herchen.jpg">
                     Gunn graduate. Likes cows.
                 </Judge>
             </div>
