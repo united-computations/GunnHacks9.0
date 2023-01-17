@@ -9,11 +9,11 @@ export default function Judges() {
                 <Judge name="Gaurav Phapale">
                     LinkedIn, Senior Software Engineering Manager
                 </Judge>
-                <Judge name="Sanjay Verma">
-                    Alix Partners, Managing Director
+                <Judge name="Sanjay Verma" src="/judges/sanjay-verma.jpeg">
+                    Partner and Managing Director
                 </Judge>
-                <Judge name="Yogesh Sandhuja">
-                    HERE Tech, VP of Product/GM Platform & Marketplace
+                <Judge name="Yogesh Sandhuja" src="/judges/yogesh-sandhuja.jpeg">
+                    VP Product, HERE Technologies
                 </Judge>
                 <Judge name="Ratnakar Malla" src="/judges/ratnakar-malla.jpg">
                     Sr. Director, Oracle Health & AI
