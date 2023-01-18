@@ -1,4 +1,6 @@
+import {ReactNode} from 'react';
 import Section from '../../components/Section';
+
 
 const mainPrizes = [{
     name: 'Top 3 Teams', 
@@ -41,54 +43,40 @@ const miniEventPrizes = [{
         'RadioShack Kit',
         'Magnetic Chess'
     ]
-}
-];
+}];
 
 export default function Prizes() {
     return (
         <Section title="Prizes" id="prizes">
-            <div className="prizes-section grid grid-rows-2 grid-cols-3 gap-3">
-                <div className="prize-section top-3-teams" style={{ gridRow: "1 / 2", gridColumn: "1 / 2" }}>
-                    <h3 className="text-xl font-bold mb-3">Top 3 Teams</h3>
-                    <ul>
-                        {mainPrizes[0].value.map(item => (
-                            <li className="prize-item p-4 bg-white rounded-lg" key={item} style={{ borderRadius: "5px", border: "1px solid #e05c5c", marginBottom: "10px" }}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="prize-section category-awards" style={{ gridRow: "1 / 2", gridColumn: "2 / 3" }}>
-                    <h3 className="text-xl font-bold mb-3">Category Awards</h3>
-                    <ul>
-                        {mainPrizes[1].value.map(item => (
-                            <li className="prize-item p-4 bg-white rounded-lg" key={item} style={{ borderRadius: "5px", border: "1px solid #e05c5c", marginBottom: "10px" }}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="prize-section other-awards" style={{ gridRow: "1 / 2", gridColumn: "3 / 4" }}>
-                    <h3 className="text-xl font-bold mb-3">Other Awards</h3>
-                    <ul>
-                        {mainPrizes[2].value.map(item => (
-                            <li className="prize-item p-4 bg-white rounded-lg" key={item} style={{ borderRadius: "5px", border: "1px solid #e05c5c", marginBottom: "10px" }}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="prize-section sponsored-awards" style={{ gridRow: "2 / 3", gridColumn: "1 / 2" }}>
-                    <h3 className="text-xl font-bold mb-3">Sponsored Awards</h3>
-                    <ul>
-                        {mainPrizes[3].value.map(item => (
-                            <li className="prize-item p-4 bg-white rounded-lg" key={item} style={{ borderRadius: "5px", border: "1px solid #e05c5c", marginBottom: "10px" }}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="prize-section mini-event-awards" style={{ gridRow: "2 / 3", gridColumn: "2 / 3" }}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {mainPrizes.map(prize => (
+                    <div>
+                        <h3 className="text-xl font-bold mb-3">{prize.name}</h3>
+                        <ul>
+                            {prize.value.map(item => (
+                                <Prize key={item}>{item}</Prize>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+
+                <div>
                     <h3 className="text-xl font-bold mb-3">Mini Event Awards</h3>
                     <ul>
                         {miniEventPrizes[0].value.map(item => (
-                            <li className="prize-item p-4 bg-white rounded-lg" key={item} style={{ borderRadius: "5px", border: "1px solid #e05c5c", marginBottom: "10px" }}>{item}</li>
+                            <Prize key={item}>{item}</Prize>
                         ))}
                     </ul>
                 </div>
             </div>
         </Section>
     );
+}
+
+function Prize(props: {children: ReactNode}) {
+    return (
+        <li className="p-4 bg-white rounded-lg mb-2.5 rounded-md border border-theme">
+            {props.children}
+        </li>
+    )
 }
