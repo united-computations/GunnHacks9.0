@@ -6,11 +6,11 @@ export default function Judges() {
     return (
         <Section title="Judges" id="judges">
             <div className="flex flex-wrap justify-center gap-10 sm:gap-16">
-                <Judge name="Gaurav Phapale">
-                    LinkedIn, Senior Software Engineering Manager
+                <Judge name="Gaurav Phapale" src="/judges/gaurav-phapale.jpg">
+                    LinkedIn Sr. Engineering Manager, Growth
                 </Judge>
                 <Judge name="Sanjay Verma" src="/judges/sanjay-verma.jpeg">
-                    Partner and Managing Director
+                    Alix Partners, Partner and Managing Director
                 </Judge>
                 <Judge name="Yogesh Sandhuja" src="/judges/yogesh-sandhuja.jpeg">
                     VP Product, HERE Technologies
