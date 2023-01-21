@@ -4,7 +4,7 @@ import Section from '../../components/Section';
 
 export default function Schedule() {
     return (
-        <Section red title="Tentative Schedule" id="schedule">
+        <Section red title="Schedule" id="schedule">
             <div className="flex flex-wrap gap-8">
                 <ScheduleDay name="January 21">
                     <ScheduleItem start="1:30 PM">Doors open</ScheduleItem>
