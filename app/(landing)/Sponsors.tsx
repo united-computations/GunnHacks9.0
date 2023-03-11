@@ -19,6 +19,7 @@ export default function Sponsors() {
                 <Sponsor href="https://www.leangap.org/" src="/sponsors/leangap.svg" alt="Leangap" />
                 <Sponsor href="https://www.mitchellparkteenservices.org/thinkfund" src="/sponsors/think-fund.png" alt="Think Fund" />
                 <Sponsor href="https://www.cityofpaloalto.org/" src="/sponsors/city-of-palo-alto.png" alt="City of Palo Alto" />
+                <Sponsor href="https://gunn.paloaltopta.org/" src="/sponsors/ptsa.png" alt="Gunn PTSA" />
             </div>
         </Section>
     )
