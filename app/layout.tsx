@@ -1,5 +1,5 @@
 import {ReactNode} from 'react';
-import {Abel} from '@next/font/google';
+import {Abel} from 'next/font/google';
 
 import '../styles/globals.css';
 

@@ -1,4 +1,4 @@
-import {Overpass} from '@next/font/google';
+import {Overpass} from 'next/font/google';
 import {RiFacebookFill, RiInstagramFill, RiDiscordFill} from 'react-icons/ri';
 import {FaEnvelope} from 'react-icons/fa';
 
