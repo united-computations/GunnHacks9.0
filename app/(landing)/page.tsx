@@ -1,3 +1,4 @@
+import type {Metadata} from 'next';
 import Header from '../../components/Header';
 import Heading from './Heading';
 import About from './About';
@@ -8,6 +9,10 @@ import FAQ from './FAQ';
 import Sponsors from './Sponsors';
 import Footer from '../../components/Footer';
 
+
+export const metadata: Metadata = {
+    title: 'GunnHacks 9.0'
+}
 
 export default function Home() {
     return (

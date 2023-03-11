@@ -1,4 +1,5 @@
-import {ReactNode} from 'react';
+import type {ReactNode} from 'react';
+import type {Metadata} from 'next';
 import {Abel} from 'next/font/google';
 
 import '../styles/globals.css';
@@ -8,6 +9,10 @@ const abel = Abel({
     weight: ['400'],
     subsets: ['latin']
 });
+
+export const metadata: Metadata = {
+    description: 'Make, Build, Create & Learn. It’s GunnHacks 9.0, Gunn’s 24‑hour high school hackathon.'
+}
 
 export default function Layout(props: {children: ReactNode}) {
     return (

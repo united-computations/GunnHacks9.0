@@ -1,3 +1,10 @@
+import type {Metadata} from 'next';
+
+
+export const metadata: Metadata = {
+    title: 'Register | GunnHacks 9.0'
+}
+
 export default function Register() {
     return (
         <div className="flex justify-center">
